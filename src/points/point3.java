@@ -19,6 +19,11 @@ public class point3 {
         System.out.println("Digite el tercer decimal: ");
         float num3 = entry.nextFloat();
 
-
+        float add = num1+num2+num3;
+        System.out.printf("suma: %.2f\n", add);
+        System.out.printf("promedio: %.2f\n", add/3);
+        System.out.printf("producto: %.2f\n", num1*num2*num3);
+        System.out.printf("cociente: %.2f\n", (num1/num2)/num3);
+        System.out.printf("modulo: %.2f\n", num1%num2%num3);
     }
 }
