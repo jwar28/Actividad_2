@@ -1,13 +1,15 @@
-/*Escriba una aplicación que pida al usuario que escriba dos enteros,
-que obtenga los números del usuario e imprima la suma, producto, diferencia de los números.
-*/
+/**
+ * Escriba una aplicación que pida al usuario que escriba dos enteros,
+ * que obtenga los números del usuario e imprima la suma, producto, diferencia
+ * de los números.
+ */
 
 package points;
 
 import java.util.Scanner;
 
-public class point2 {
-    public static void main(String[] args) {
+public class Point2 {
+    public static void main() {
         Scanner entry = new Scanner(System.in);
 
         System.out.println("Ingrese el primer numero: ");
