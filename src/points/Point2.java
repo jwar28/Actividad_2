@@ -9,16 +9,31 @@ package points;
 import java.util.Scanner;
 
 public class Point2 {
-    public static void main() {
-        Scanner entry = new Scanner(System.in);
+    public static Scanner input = new Scanner(System.in);
 
-        System.out.println("Ingrese el primer numero: ");
-        int num1 = entry.nextInt();
-        System.out.println("Ingrese el segundo numero: ");
-        int num2 = entry.nextInt();
+    public static void main(String[] args) {
+        System.out.println("\n\t\tPUNTO 2");
+        int[] numberList = askNums();
+        int num1 = numberList[0], num2 = numberList[1];
 
         System.out.printf("La suma de los numeros es: %d\n", num1+num2);
         System.out.printf("El producto de los numeros es: %d\n", num1*num2);
         System.out.printf("La diferencia de los numeros es: %d\n", num1-num2);
+        System.out.println("");
+    }
+
+    /**
+     * Pedirle al usuario dos numeros enteros y almacenarlos en una lista
+     * (num1, num2)
+     * @return: retorna la lista con estos dos valores
+     */
+    public static int[] askNums(){
+        System.out.println("Ingrese el primer numero: ");
+        int num1 = input.nextInt();
+        System.out.println("Ingrese el segundo numero: ");
+        int num2 = input.nextInt();
+
+        int [] numbers = {num1, num2};
+        return numbers;
     }
 }
