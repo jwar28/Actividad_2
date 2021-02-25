@@ -18,6 +18,10 @@ public class Point11 {
         showUnits(num);
     }
 
+    /**
+     * Pedirle al usuario un numero entre 0 y 1000 para desglosarlo
+     * @return: retorna el valor del numero
+     */
     public static int askNumber(){
         int num;
         while (true){
@@ -33,6 +37,10 @@ public class Point11 {
         return num;
     }
 
+    /**
+     * Funcion que desglosa el numero digitado en unidades, decenas y centenas
+     * @param num: recibe el valor del numero para ser desglosado
+     */
     public static void showUnits(int num){
         System.out.printf("Unidad: %d\n", num % 10);
         System.out.printf("Decena: %d\n", (num / 10) % 10);
