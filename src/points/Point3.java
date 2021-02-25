@@ -15,8 +15,10 @@ public class Point3 {
         System.out.println("\n\t\tPUNTO 3");
 
         float [] numberList = askNums();
-        float num1 = numberList[0], num2 = numberList[1], num3 = numberList[2],
-                add;
+        float num1 = numberList[0];
+        float num2 = numberList[1];
+        float num3 = numberList[2];
+        float add;
 
         add = num1+num2+num3;
         System.out.printf("suma: %.2f\n", add);
