@@ -14,7 +14,8 @@ public class Point1 {
     public static void main(String[] args) {
         System.out.println("\n\t\tPUNTO 1");
         int[] numberList = askNums();
-        int num1 = numberList[0], num2 = numberList[1];
+        int num1 = numberList[0];
+        int num2 = numberList[1];
 
         System.out.printf("x = %d\n", num1);
         System.out.printf("El valor de %d + %d es %d\n", num1, num1, (num1 + num1));

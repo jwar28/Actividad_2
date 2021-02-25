@@ -1,13 +1,11 @@
 import points.*;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int choice = 1;
         askPoint();
         askRepeatProgram();
     }
@@ -71,6 +69,7 @@ public class Main {
             switch(choice) {
                 case 1:
                     main(null);
+                    break;
                 case 2:
                     System.exit(0);
                 default:
@@ -78,6 +77,5 @@ public class Main {
                     continue;
             }
         }
-
     }
 }

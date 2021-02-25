@@ -14,7 +14,8 @@ public class Point2 {
     public static void main(String[] args) {
         System.out.println("\n\t\tPUNTO 2");
         int[] numberList = askNums();
-        int num1 = numberList[0], num2 = numberList[1];
+        int num1 = numberList[0];
+        int num2 = numberList[1];
 
         System.out.printf("La suma de los numeros es: %d\n", num1+num2);
         System.out.printf("El producto de los numeros es: %d\n", num1*num2);

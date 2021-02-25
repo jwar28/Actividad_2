@@ -19,16 +19,18 @@ public class Point11 {
     }
 
     public static int askNumber(){
+        int num;
         while (true){
             System.out.print("Ingrese un numero (0-1000): ");
-            int num = input.nextInt();
+            num = input.nextInt();
 
             if (num >= 1000 || num < 0){
                 System.out.println("Fuero de rango, ingrese otro numero");
                 continue;
             }
-            return num;
+            break;
         }
+        return num;
     }
 
     public static void showUnits(int num){

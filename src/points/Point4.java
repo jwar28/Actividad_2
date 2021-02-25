@@ -6,7 +6,6 @@
 package points;
 
 import java.util.Scanner;
-import java.lang.Math;
 
 public class Point4 {
     public static Scanner input = new Scanner(System.in);
